@@ -59,7 +59,7 @@ void handlePlayerInput(sfRenderWindow* gameWindow, Player* player, sfSprite* pla
         }
         else
         {
-            player->speed = player->speed * 0.99;
+            player->speed = player->speed * 0.985;
         }
     }  
 }
